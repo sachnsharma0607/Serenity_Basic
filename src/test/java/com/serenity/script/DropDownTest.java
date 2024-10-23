@@ -25,6 +25,8 @@ public class DropDownTest {
 		
 		System.out.println(dropDownPage.getAllSelectedLabels());
 		System.out.println(dropDownPage.getAllSelectedValues());
+		
+		dropDownPage.selectFromDropdownValue("BANGALORE URBAN");
 	
 	}
 }
